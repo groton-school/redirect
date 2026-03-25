@@ -17,7 +17,7 @@ const wizard = force || !(await Env.get({key: 'PROJECT'}));
 
 if (wizard) {
   await gcloud.batch.run.initialize({
-    defaultName: "Redirecter",
+    defaultName: "Redirect",
     env: true,
   });
 }
