@@ -1,6 +1,8 @@
+*.cache
 .env
 .env.*
 !.env.example
 /coverage/
 /build/
 /node_modules/
+/vendor/
