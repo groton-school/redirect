@@ -77,7 +77,7 @@ if (!empty($block)) {
             instructionsElt.innerHTML =
                 "<p>Don't want to have to click here again? Enable redirects by " +
                 'clicking on the icon in the location bar above.<br/>' +
-                `<img src="https://assets.groton.org/redirect/portal_disambiguation.png" height="200" /></p>`;
+                `<img src="https://groton-school.github.io/redirect/assets/redirects.png" height="200" /></p>`;
             modalBodyElt.appendChild(instructionsElt);
 
             bootstrap.Modal.getOrCreateInstance('#modal').show()
