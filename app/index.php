@@ -9,5 +9,5 @@ if ($request == '/__diagnostic') {
 } elseif (empty($var)) {
     header("Location: https://portals.veracross.com/groton{$request}");
 } else {
-    require(__DIR__ . '/disambiguator.php');
+    require(__DIR__ . '/disambiguation/index.php');
 }

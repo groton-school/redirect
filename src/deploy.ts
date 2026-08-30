@@ -29,5 +29,5 @@ const { service } = await gcloud.batch.run.deployService({
   args: {
     source: "./app",
     "allow-unauthenticated": true,
-  },
+  }
 });
