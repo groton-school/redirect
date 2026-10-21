@@ -29,5 +29,7 @@ const { service } = await gcloud.batch.run.deployService({
   args: {
     source: "./app",
     "allow-unauthenticated": true,
+    'automatic-updates':true,
+    'base-image': 'php85'
   }
 });
